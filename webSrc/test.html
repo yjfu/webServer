@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+</head>
+<body>
+	<h1>Welcome!</h1>
+	<a href='http://localhost:8080/apage.html'>静态请求测试</a>
+	<a href='http://localhost:8080/not-exit.html'>静态请求测试-404</a>
+	<a href='http://localhost:8080/'>静态请求测试-缺省</a>
+	<form method='get' action='http://localhost:8080/add'>
+		<label>动态get测试：a+b</label>
+		<br/>
+		a<input type='text' name='a'/>
+		<br/>
+		b<input type='text' name='b'/>
+		<br/>
+		<button type='submit'>submit</button>
+	</form>
+	<form method='post' action='http://localhost:8080/add'>
+		<label>动态post测试1：a+b</label>
+		<br/>
+		a<input type='text' name='a'/>
+		<br/>
+		b<input type='text' name='b'/>
+		<br/>
+		<button type='submit'>submit</button>
+	</form>
+	<form method='post' action='http://localhost:8080/tolower'>
+		<label>动态post测试2：大小写转换</label>
+		<br/>
+		input<input type='textarea' name='text'>
+		<br/>
+		<button type='submit'>submit</button>
+	</form>
+</body>
+</html>

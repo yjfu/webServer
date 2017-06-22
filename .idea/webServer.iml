@@ -2,7 +2,15 @@
 <module type="CIDR_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/webServer/Server.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/webServer/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/webServer/Server.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/webServer/mycharset.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/webServer/Request.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/webServer/cgi.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/webServer/Responsor.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/webServer/Request.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/webServer/Responsor.h" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">

@@ -6,11 +6,10 @@
 //  Copyright (c) 2017 傅永健. All rights reserved.
 //
 
-#include <iostream>
+#include "Server.h"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-
-    return 0;
+    string src_root = "/Users/yjfu/github/webServer/webSrc";
+    Server* server = new Server("127.0.0.1", 8080, src_root);
+    server->run();
 }
